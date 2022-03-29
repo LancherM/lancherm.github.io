@@ -1,0 +1,74 @@
+figure.highlight {
+  background: #21252b;
+  border-radius: 5px;
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .4);
+  padding-top: 30px
+}
+
+figure.highlight::before {
+  background: #fc625d;
+  border-radius: 50%;
+  box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+  content: ' ';
+  height: 12px;
+  left: 12px;
+  margin-top: -20px;
+  position: absolute;
+  width: 12px;
+}
+
+
+
+figure.highlight .fas.fa-angle-down {
+  transform: none;
+  transition: transform 0.2s ease-in-out;
+}
+figure.highlight .fas.fa-angle-down.collapsed {
+  transform: rotate(-90deg);
+}
+figure.highlight > i {
+  color: #777;
+  margin-left: 10px;
+  line-height: 2rem;
+}
+.highlight-btn-container > span {
+  position: absolute;
+  color: #777;
+  margin-left: 20px;
+  font-weight: bold;
+}
+figure.highlight td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+.copy-btn {
+  top: 5px;
+  font-size: 1rem;
+}
+.copy-btn > i {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+.copy-btn-dark {
+  color: #2f4f4f;
+}
+.fa-angle-down{
+  color: #777;
+  position: absolute;
+  top:6px; 
+}
+
+
+
+.highlight-btn-container
+{
+  position: absolute;
+  left:42%;
+  top:-0px;
+}
+
+figure.highlight table {
+  border-radius: 0 0 5px 5px;
+  
+}

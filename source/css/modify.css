@@ -1,0 +1,48 @@
+.nav-link:hover{
+  animation: tada 1s .2s ease both;
+  -moz-animation: tada 1s .2s ease both;
+}
+
+@keyframes tada{
+0%{-webkit-transform:scale(1);}
+
+10%, 20%{-webkit-transform:scale(0.9) rotate(-2deg);}
+
+30%, 50%, 70%, 90%{-webkit-transform:scale(1.08) rotate(2deg);}
+
+40%, 60%, 80%{-webkit-transform:scale(1.08) rotate(-2deg);}
+
+100%{-webkit-transform:scale(1) rotate(0);}}
+
+.top-scroll-bar{
+  font-size: larger;
+  text-align: center;
+  position: absolute;
+  right: 50%;
+  font-style: italic;
+  font-weight: 200;
+}
+.mask {
+  background-color: #252525;
+  color: #252525;
+  transition: color 0.5s;
+}
+
+.mask:hover {
+  color: #ffffff;
+}
+/*
+h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
+  color: rgb(46, 110, 110);
+  transform: translateX(2px);
+  transition: 0.5s;
+}
+
+*/
+
+
+
+
+
+
+

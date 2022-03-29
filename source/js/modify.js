@@ -1,0 +1,1 @@
+document.getElementsByClassName('h1')[1].innerHTML='<i class="fas fa-h1"></i>';
